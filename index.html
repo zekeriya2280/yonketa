@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Mongochat</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.dev.js"></script>
+    <style>
+    #messages{
+        height:300px;
+    }
+    </style>
+    <script>
+    (function(){
+
+    })();
+    </script>
+</head>
+<body>
+<div class="container">
+    <div class="column">
+        <h1 class="col md-6 offset md-3 col sm-12"> 
+                <h1 class="text-center">
+                    MongoChat
+                </h1>
+                <button id="clear" class="btn btn-danger">
+                        Clear
+                </button>
+                <div class="status"></div>
+                <br>
+                <div id="chat">
+                      <input type="text" class="form-control" name="" id="username" aria-describedby="helpId" placeholder="Enter name...">
+                </div>
+                <div class="card">
+                    <div id = "messages" class="card-block">
+                
+                    </div>
+                </div>
+                <textarea class="form-control" id="textarea" placeholder="Enter Message"></textarea>
+                
+                <!--
+                <form action="" method="post" id="messageForm">
+                    <div class="form-group">
+                    <br />
+                    <textarea class="form-controll" id="message"></textarea>
+                        <br />
+                        <label>Enter message</label><br />
+                        <input type="text" name="firstname"><br>
+                        <input type="submit" class="btn btn-primary" value="Send Message"><br />
+                    </div>
+                </form>
+                -->
+        </div>
+    </div>
+</div>
+
+</body>
+</!DOCTYPE>
